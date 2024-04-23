@@ -18,6 +18,8 @@ require("./config")(app);
 const indexRoutes = require("./routes/index.routes");
 app.use("/api", indexRoutes);
 
+//.............//
+
 //this is to link the auth routes to the server
 
 const authRoutes = require("./routes/auth.routes");
